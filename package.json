@@ -1,0 +1,30 @@
+{
+    "name": "pomelo-node-client",
+    "version": "0.0.1",
+    "description": "A pomelo client lib for nodejs.",
+    "main": "index.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/williamdu2877/pomelo-node-client"
+    },
+    "keywords": [
+	"pomelo",
+	"node",
+	"client",
+	"lib"
+    ],
+    "author": "williamdu2877",
+    "license": "MIT",
+    "bugs": {
+	"url": "https://github.com/williamdu2877/pomelo-node-client/issues"
+    },
+    "homepage": "https://github.com/williamdu2877/pomelo-node-client",
+    "dependencies": {
+        "pomelo-protobuf": "0.3.5",
+        "pomelo-protocol": "0.1.0",
+        "ws": "0.4.25"
+    }
+}
